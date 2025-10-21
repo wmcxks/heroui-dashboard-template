@@ -1,20 +1,27 @@
-# NextJS and NextUI Dashboard Template Starter
+# NextJS and HeroUI Dashboard Template Starter 🚀
 
-You can deploy here directly to vercel [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/Siumauricio/nextui-dashboard-template)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/Siumauricio/nextui-dashboard-template)
 
+🎉 **Special thanks to the original author [Siumauricio](https://github.com/Siumauricio)**! This project is adapted from his excellent [nextui-dashboard-template](https://github.com/Siumauricio/nextui-dashboard-template). I truly appreciate his outstanding design and development work that served as the foundation for this template!
 
-V1 Version Stitches https://v1-nextui-dashboard-template.vercel.app/
-V1 Code: https://github.com/Siumauricio/nextui-dashboard-template/tree/v1
+## 🔧 Improvements
 
-This is a template for NextJS and NextUI.
+Since NextUI has been deprecated, I've migrated the UI framework from NextUI to HeroUI while preserving all core functionalities.
 
-[NextJS](https://nextjs.org/)
-[NextUI](https://nextui.org/)
+## ✨ Original Features Preserved
 
-You can see the demo here: https://nextui-dashboard-template.vercel.app/
-For improve this template, you can create a pull request or open an issue here [Issues](https://github.com/Siumauricio/nextui-dashboard-template/issues) or [Pull Request](
-    https://github.com/Siumauricio/nextui-dashboard-template/pulls)
+- 🌙 Dark Mode Support
+- 📱 Full Responsive Design
+- 📊 Home Page with Charts
+- 👤 Accounts Page
+- ➕ More pages coming soon...
 
+## 🔗 Related Links
+
+- [NextJS](https://nextjs.org/)
+- [HeroUI](https://heroui.org/)
+- [Original Repository](https://github.com/Siumauricio/nextui-dashboard-template)
+- [Original Demo](https://nextui-dashboard-template.vercel.app/)
 ### Dark Mode
 ![Dashboard Dark Mode](./public/dark.png)
 
