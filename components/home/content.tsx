@@ -20,14 +20,20 @@ const Chart = dynamic(
 export const Content = () => (
   <div className="h-full lg:px-6">
     <div className="flex justify-center gap-4 xl:gap-6 pt-3 px-4 lg:px-0  flex-wrap xl:flex-nowrap sm:pt-10 max-w-[90rem] mx-auto w-full">
-      <div className="mt-6 gap-6 flex flex-col w-full">
+      <div className="mt-6 gap-6 flex flex-col w-full xl:w-9/12">
         {/* Card Section Top */}
         <div className="flex flex-col gap-2">
           <h3 className="text-xl font-semibold">Available Balance</h3>
-          <div className="grid md:grid-cols-2 grid-cols-1 2xl:grid-cols-3 gap-5  justify-center w-full">
-            <CardBalance1 />
-            <CardBalance2 />
-            <CardBalance3 />
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-5 justify-center w-full">
+            <div className="w-full">
+              <CardBalance1 />
+            </div>
+            <div className="w-full">
+              <CardBalance2 />
+            </div>
+            <div className="w-full">
+              <CardBalance3 />
+            </div>
           </div>
         </div>
 
@@ -41,7 +47,7 @@ export const Content = () => (
       </div>
 
       {/* Left Section */}
-      <div className="mt-4 gap-2 flex flex-col xl:max-w-md w-full">
+      <div className="mt-4 gap-2 flex flex-col xl:max-w-[300px] w-full xl:w-3/12">
         <h3 className="text-xl font-semibold">Section</h3>
         <div className="flex flex-col justify-center gap-4 flex-wrap md:flex-nowrap md:flex-col">
           <CardAgents />
