@@ -27,13 +27,13 @@ export const AuthLayoutWrapper = ({ children }: Props) => {
         <div className='absolute left-0 right-0 bottom-0 top-0 z-0'>
           <Image
             className='w-full h-full'
-            src='https://nextui.org/gradients/docs-right.png'
+            src='https://www.heroui.com/gradients/docs-right.png'
             alt='gradient'
           />
         </div>
 
         <div className='z-10'>
-          <h1 className='font-bold text-[45px]'>NextUI Dashboard Template</h1>
+          <h1 className='font-bold text-[45px]'>HeroUI Dashboard Template</h1>
           <div className='font-light text-slate-400 mt-4'>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
             possimus voluptate, sapiente assumenda deserunt repellendus,
